@@ -13,5 +13,6 @@ A lightweight, fault-tolerant Python background service designed to ingest strea
 * Automated self-healing network logic.
 
 ## How to Run
-1. Install dependencies: `pip install websocket-client`
-2. Execute the engine: `python ingestion_engine.py`
+1. Install dependencies:
+   ```bash
+   pip install websocket-client
