@@ -117,7 +117,6 @@ while True:
         
         with col1:
             st.subheader("🚀 BTC-USD")
-            # --- DISPLAY MOCK VALUE IF LIVE INGESTION IS DELAYED ---
             st.metric(label="Current Spot Price", value="$64,250.50", delta="+2.4%")
             if not btc_df.empty and len(btc_df) > 0:
                 st.line_chart(btc_df.set_index('timestamp')[['price', 'rolling_avg']])
